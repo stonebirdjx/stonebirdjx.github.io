@@ -39,108 +39,61 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true
+  tocopen: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/img/favicon_bird.png"
+    favicon16x16: "/img/favicon_bird.png"
+    favicon32x32: "/img/favicon_bird.png"
+    apple_touch_icon: "/img/favicon_bird.png"
+    safari_pinned_tab: "/img/favicon_bird.png"
 
   label:
     text: "stonebirdjx"
-    icon: /apple-touch-icon.png
+    icon: /img/hi.png
     iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
 
   # home-info mode
   homeInfoParams:
     Title: "石鸟路遇"
-    Content: Welcome to my blog
+    Content: |
+      欢迎来到我的blog，我是石鸟路遇(stonebirdjx)，一名优秀与善良并存的软件开发工程师，热爱生活、热爱学习、善于观察、善于记录。
+
+      Simple, Poetic, Pithy
+
+
 
   socialIcons:
     - name: twitter
       url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: email
+      url: "mailto:1245863260@qq.com"
     - name: github
       url: "https://github.com/stonebirdjx"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
     - identifier: Linux
       name: Linux
-      url: /Linux/
+      url: /linux/
       weight: 10
-    - identifier: k8s
-      name: k8s
-      url: /k8s/
+    - identifier: Kubernetes
+      name: kubernetes
+      url: /kubernetes/
       weight: 10
-    - identifier: golang
-      name: golang
+    - identifier: Golang
+      name: Golang
       url: /golang/
       weight: 10
-    - identifier: python
-      name: python
+    - identifier: Python
+      name: Python
       url: /python/
       weight: 10
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
-markup:
-  highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    - identifier: Algo
+      name: Algo
+      url: /algo/
+      weight: 10
+
