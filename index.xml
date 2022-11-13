@@ -11,6 +11,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 13 Nov 2022 11:44:28 +0800</lastBuildDate><atom:link href="https://stonebirdjx.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Algo</title>
+      <link>https://stonebirdjx.github.io/algo/</link>
+      <pubDate>Sun, 13 Nov 2022 15:23:53 +0800</pubDate>
+      
+      <guid>https://stonebirdjx.github.io/algo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>My First Post</title>
       <link>https://stonebirdjx.github.io/posts/my-first-post/</link>
       <pubDate>Sun, 13 Nov 2022 11:44:28 +0800</pubDate>
