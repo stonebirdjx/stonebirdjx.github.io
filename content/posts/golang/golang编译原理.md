@@ -38,7 +38,7 @@ E:\SomeFile\gospace\helloworld>go build -n main.go
 
 Go 语言编译器的源代码在 [`src/cmd/compile`](https://github.com/golang/go/tree/master/src/cmd/compile) 目录中，目录下的文件共同组成了 Go 语言的编译器。
 
-![go-byq-3](E:\SomeFile\stonebirdjx\static\go-ladder\go-byq-3.png)
+![go-byq-3](https://github.com/stonebirdjx/static/blob/master/go-ladder/go-byq-3.png)
 
 编译器分前后端
 
@@ -342,3 +342,8 @@ func Flushplist(ctxt *Link, plist *Plist, newprog ProgAlloc, myimportpath string
 ```
 
 整个过程下来，可以看到编译器后端有很多工作需要做的，你需要对某一个指令集、cpu 的架构了解，才能正确的进行翻译机器码。同时不能仅仅是正确，一个语言的效率是高还是低，也在很大程度上取决于编译器后端的优化。特别是即将进入 AI 时代，越来越多的芯片厂商诞生，我估计以后对这方面人才的需求会变得越来越旺盛。
+
+## 参考
+- 挖坑的张师傅、小贺coding
+- [欧长坤](https://changkun.de/)
+- [小米信息部技术团队](https://xiaomi-info.github.io/)
