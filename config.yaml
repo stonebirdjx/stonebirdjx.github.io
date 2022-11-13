@@ -16,21 +16,22 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  title: StoneBird
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: "stonebirdjx"
+  author: "StoneBird"
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -40,7 +41,7 @@ params:
   hidemeta: false
   hideSummary: false
   showtoc: true
-  tocopen: true
+  tocopen: false
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -52,7 +53,7 @@ params:
     safari_pinned_tab: "/img/favicon_bird.png"
 
   label:
-    text: "stonebirdjx"
+    text: "StoneBird"
     icon: /img/hi.png
     iconHeight: 35
 
@@ -64,6 +65,11 @@ params:
 
       Simple, Poetic, Pithy
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
 
 
   socialIcons:
@@ -76,24 +82,16 @@ params:
 
 menu:
   main:
-    - identifier: Linux
-      name: Linux
-      url: /linux/
+    - identifier: Search
+      name: Search
+      url: /search/
       weight: 10
-    - identifier: Kubernetes
-      name: kubernetes
-      url: /kubernetes/
+    - identifier: Archive
+      name: Archive
+      url: /archives/
       weight: 10
-    - identifier: Golang
-      name: Golang
-      url: /golang/
-      weight: 10
-    - identifier: Python
-      name: Python
-      url: /python/
-      weight: 10
-    - identifier: Algo
-      name: Algo
-      url: /algo/
+    - identifier: Tags
+      name: Tags
+      url: /tags/
       weight: 10
 
