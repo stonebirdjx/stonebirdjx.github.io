@@ -38,7 +38,7 @@ E:\SomeFile\gospace\helloworld>go build -n main.go
 
 Go 语言编译器的源代码在 [`src/cmd/compile`](https://github.com/golang/go/tree/master/src/cmd/compile) 目录中，目录下的文件共同组成了 Go 语言的编译器。
 
-![go-byq-3](https://github.com/stonebirdjx/static/blob/master/go-ladder/go-byq-3.png)
+![go-byq-3](/img/golang/go-byq-3.png)
 
 编译器分前后端
 
