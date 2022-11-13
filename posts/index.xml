@@ -9,11 +9,20 @@
       <link>https://stonebirdjx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Nov 2022 11:44:28 +0800</lastBuildDate><atom:link href="https://stonebirdjx.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Nov 2021 11:44:28 +0800</lastBuildDate><atom:link href="https://stonebirdjx.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go hello</title>
+      <link>https://stonebirdjx.github.io/posts/golang/helloworld/</link>
+      <pubDate>Sat, 13 Nov 2021 11:44:28 +0800</pubDate>
+      
+      <guid>https://stonebirdjx.github.io/posts/golang/helloworld/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>My First Post</title>
       <link>https://stonebirdjx.github.io/posts/my-first-post/</link>
-      <pubDate>Sun, 13 Nov 2022 11:44:28 +0800</pubDate>
+      <pubDate>Sat, 13 Nov 2021 11:44:28 +0800</pubDate>
       
       <guid>https://stonebirdjx.github.io/posts/my-first-post/</guid>
       <description>测试blog hello,world package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;Hello, world&amp;#34;) fmt.Println(&amp;#34;Hello, 世界&amp;#34;) } 小故事 一只山鹰和一只狐狸成为好朋友，它们决定住在一起，相互照应。于是它们找到一棵大树，山鹰飞到树上筑起了鸟巢，狐狸走到树下的灌木丛中造了一个窝。一天天过去了，山鹰产下了几颗蛋，坐在鸟巢里孵蛋，狐狸也生下了几只幼仔，躺在窝里喂小狐狸。
