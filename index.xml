@@ -9,14 +9,17 @@
       <link>https://stonebirdjx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 13 Nov 2021 11:44:28 +0800</lastBuildDate><atom:link href="https://stonebirdjx.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2022 23:01:26 +0800</lastBuildDate><atom:link href="https://stonebirdjx.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Algo</title>
-      <link>https://stonebirdjx.github.io/algo/</link>
-      <pubDate>Sun, 13 Nov 2022 15:23:53 +0800</pubDate>
+      <title>Golang编译原理</title>
+      <link>https://stonebirdjx.github.io/posts/golang/golang%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</link>
+      <pubDate>Sun, 13 Nov 2022 23:01:26 +0800</pubDate>
       
-      <guid>https://stonebirdjx.github.io/algo/</guid>
-      <description></description>
+      <guid>https://stonebirdjx.github.io/posts/golang/golang%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</guid>
+      <description>go build 过程 go build 参数说明
+-a	将命令源码文件与库源码文件全部重新构建，即使是最新的 -n	把编译期间涉及的命令全部打印出来，但不会真的执行，非常方便我们学习 -race	开启竞态条件的检测，支持的平台有限制 -x	打印编译期间用到的命名，它与 -n 的区别是，它不仅打印还会执行 go build -n main.go
+E:\SomeFile\gospace\helloworld&amp;gt;go build -n main.go ... &amp;#34;C:\\Program Files\\Go\\pkg\\tool\\windows_amd64\\compile.exe&amp;#34; -o &amp;#34;$WORK\\b001\\_pkg_.a&amp;#34; -trimpath &amp;#34;$WORK\\b001=&amp;gt;&amp;#34; -p main -complete -buildid v3BL3MHm16Q3kjspXXCg/v3BL3MHm16Q3kjspXXCg -goversion go1.18.2 -c=4 -nolocalimports -importcfg &amp;#34;$WORK\\b001\\importcfg&amp;#34; -pack ... &amp;#34;C:\\Program Files\\Go\\pkg\\tool\\windows_amd64\\buildid.exe&amp;#34; -w &amp;#34;$WORK\\b001\\_pkg_.a&amp;#34; # internal ... &amp;#34;C:\\Program Files\\Go\\pkg\\tool\\windows_amd64\\link.exe&amp;#34; -o &amp;#34;$WORK\\b001\\exe\\a.out.exe&amp;#34; -importcfg &amp;#34;$WORK\\b001\\importcfg.link&amp;#34; -buildmode=pie -buildid=qEvHouU39HqKxAChmahv/v3BL 3MHm16Q3kjspXXCg/v3BL3MHm16Q3kjspXXCg/qEvHouU39HqKxAChmahv -extld=gcc &amp;#34;$WORK\\b001\\_pkg_.a&amp;#34; 这一部分是编译的核心，通过 compile、 buildid、 link 三个命令会编译出可执行文件 a.out。
+然后通过 mv 更换成最终名字</description>
     </item>
     
     <item>
@@ -42,15 +45,6 @@
 山鹰背信弃义伤害了自己的朋友，最后自己也得到了惩罚。</description>
     </item>
     
-    
-    <item>
-      <title>Golang</title>
-      <link>https://stonebirdjx.github.io/golang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://stonebirdjx.github.io/golang/</guid>
-      <description>golang</description>
-    </item>
     
     
     <item>

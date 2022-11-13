@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>golang on 石鸟路遇</title>
-    <link>https://stonebirdjx.github.io/tags/golang/</link>
-    <description>Recent content in golang on 石鸟路遇</description>
+    <title>编译原理 on 石鸟路遇</title>
+    <link>https://stonebirdjx.github.io/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</link>
+    <description>Recent content in 编译原理 on 石鸟路遇</description>
     <image>
       <url>https://stonebirdjx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://stonebirdjx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Nov 2022 23:01:26 +0800</lastBuildDate><atom:link href="https://stonebirdjx.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2022 23:01:26 +0800</lastBuildDate><atom:link href="https://stonebirdjx.github.io/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Golang编译原理</title>
       <link>https://stonebirdjx.github.io/posts/golang/golang%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</link>
@@ -20,29 +20,6 @@
 -a	将命令源码文件与库源码文件全部重新构建，即使是最新的 -n	把编译期间涉及的命令全部打印出来，但不会真的执行，非常方便我们学习 -race	开启竞态条件的检测，支持的平台有限制 -x	打印编译期间用到的命名，它与 -n 的区别是，它不仅打印还会执行 go build -n main.go
 E:\SomeFile\gospace\helloworld&amp;gt;go build -n main.go ... &amp;#34;C:\\Program Files\\Go\\pkg\\tool\\windows_amd64\\compile.exe&amp;#34; -o &amp;#34;$WORK\\b001\\_pkg_.a&amp;#34; -trimpath &amp;#34;$WORK\\b001=&amp;gt;&amp;#34; -p main -complete -buildid v3BL3MHm16Q3kjspXXCg/v3BL3MHm16Q3kjspXXCg -goversion go1.18.2 -c=4 -nolocalimports -importcfg &amp;#34;$WORK\\b001\\importcfg&amp;#34; -pack ... &amp;#34;C:\\Program Files\\Go\\pkg\\tool\\windows_amd64\\buildid.exe&amp;#34; -w &amp;#34;$WORK\\b001\\_pkg_.a&amp;#34; # internal ... &amp;#34;C:\\Program Files\\Go\\pkg\\tool\\windows_amd64\\link.exe&amp;#34; -o &amp;#34;$WORK\\b001\\exe\\a.out.exe&amp;#34; -importcfg &amp;#34;$WORK\\b001\\importcfg.link&amp;#34; -buildmode=pie -buildid=qEvHouU39HqKxAChmahv/v3BL 3MHm16Q3kjspXXCg/v3BL3MHm16Q3kjspXXCg/qEvHouU39HqKxAChmahv -extld=gcc &amp;#34;$WORK\\b001\\_pkg_.a&amp;#34; 这一部分是编译的核心，通过 compile、 buildid、 link 三个命令会编译出可执行文件 a.out。
 然后通过 mv 更换成最终名字</description>
-    </item>
-    
-    <item>
-      <title>Go hello</title>
-      <link>https://stonebirdjx.github.io/posts/golang/helloworld/</link>
-      <pubDate>Sat, 13 Nov 2021 11:44:28 +0800</pubDate>
-      
-      <guid>https://stonebirdjx.github.io/posts/golang/helloworld/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://stonebirdjx.github.io/posts/my-first-post/</link>
-      <pubDate>Sat, 13 Nov 2021 11:44:28 +0800</pubDate>
-      
-      <guid>https://stonebirdjx.github.io/posts/my-first-post/</guid>
-      <description>测试blog hello,world package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;Hello, world&amp;#34;) fmt.Println(&amp;#34;Hello, 世界&amp;#34;) } 小故事 一只山鹰和一只狐狸成为好朋友，它们决定住在一起，相互照应。于是它们找到一棵大树，山鹰飞到树上筑起了鸟巢，狐狸走到树下的灌木丛中造了一个窝。一天天过去了，山鹰产下了几颗蛋，坐在鸟巢里孵蛋，狐狸也生下了几只幼仔，躺在窝里喂小狐狸。
-这天，狐狸出去找吃的，留下小狐狸独自在家，山鹰肚子饿了，它懒得到很远的地方去找吃的，就飞到灌木丛中把小狐狸全吃掉了。
-狐狸回来发现小狐狸被吃了，又伤心又愤怒，可是山鹰住在树上，狐狸爬不上树，它没法找山鹰报仇。
-过了一段时间，小山鹰出世了，山鹰离开鸟巢去给孩子们找吃的。山鹰运气好，碰到一群人在烤羊肉，山鹰从空中飞下去，抓起带着火的羊肉飞回了巢里。
-一阵风吹来，羊肉上面的火星点燃了巢里的枯草和树枝。鸟巢燃了起来，熊熊大火把鸟巢烧得精光，小鹰也被烧死了，并从树上掉下来。树下的狐狸看到后急忙跑上前把小鹰全吃了。
-山鹰背信弃义伤害了自己的朋友，最后自己也得到了惩罚。</description>
     </item>
     
   </channel>
