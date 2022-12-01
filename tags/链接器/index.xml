@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>链接器 on 石鸟路遇</title>
+    <link>https://stonebirdjx.github.io/tags/%E9%93%BE%E6%8E%A5%E5%99%A8/</link>
+    <description>Recent content in 链接器 on 石鸟路遇</description>
+    <image>
+      <url>https://stonebirdjx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://stonebirdjx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 19 Nov 2022 11:14:12 +0800</lastBuildDate><atom:link href="https://stonebirdjx.github.io/tags/%E9%93%BE%E6%8E%A5%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go语言链接器</title>
+      <link>https://stonebirdjx.github.io/posts/golang/go%E8%AF%AD%E8%A8%80%E9%93%BE%E6%8E%A5%E5%99%A8/</link>
+      <pubDate>Sat, 19 Nov 2022 11:14:12 +0800</pubDate>
+      
+      <guid>https://stonebirdjx.github.io/posts/golang/go%E8%AF%AD%E8%A8%80%E9%93%BE%E6%8E%A5%E5%99%A8/</guid>
+      <description>链接过程 链接过程就是要把编译器生成的一个个目标文件链接成可执行文件。最终得到的文件是分成各种段的，比如数据段、代码段、BSS段等等，运行时会被装载到内存中。各个段具有不同的读写、执行属性，保护了程序的安全运行。
+主要工作 把所有中间目标文件和库文件捆绑成单一可执行文件 统一给每个函数和全局变量分配地址 填补中间目标文件和库文件中的残缺信息 go build 拆解 &amp;ldquo;go build&amp;rdquo; 拆解成 &amp;ldquo;go tool compile&amp;rdquo; 和 &amp;ldquo;go tool link&amp;rdquo; 两个步骤
+go tool compile -N demo.go # 编译产物：demo.o go tool link -v -o demo.o demo.out # demo.out 为可执行文件 大致过程：
+把半成品 demo.o 和 runtime.a 捆绑成单一可执行文件 demo.out 给每个函数和全局变量分配地址 把指令和数据中所有未知的残缺地址值都填充补齐 Go链接器工作流程 源码:$GOROOT/src/cmd/link
+Index Name Comment 0 libinit 创建并初始化输出文件 1 computeTLSOffset 处理输出文件中 TLS 相关的信息（尽管 Go 语言不使用 TLS ） 2 Archinit 和具体处理器相关的初始化 3 loadlib 加载中间目标代码需要调用的库 4 deadcode 消除代码中定义了但是并未使用的函数和全局变量 5 linksetup 设置平台（linux/darwin/windows）相关的flags 6 dostrdata 处理通过命令行参数 -X 定义的字符串 7 dwarfGenerateDebugInfo 生成调试信息（汇编和源码的对应关系等） 8 callgraph 生成调用图 9 doStackCheck 遍历调用树并检查是否有足够的栈空间 10 mangleTypeSym 缩减符号表中符号的长度 11 doelf/dope/docoff/domacho 格式相关的处理（ELF/PE/COFF/MachO） 12 textbuildid 13 addexport 14 Gentext 插入一些有用的汇编小片段（trampolines, call stubs, etc.</description>
+    </item>
+    
+  </channel>
+</rss>
