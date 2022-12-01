@@ -2,6 +2,8 @@
 title: "Golang编译原理"
 date: 2022-11-13T23:01:26+08:00
 draft: true
+comments: true
+ShowReadingTime: true
 tags: ["golang","编译原理"]
 ---
 
