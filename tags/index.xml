@@ -9,7 +9,25 @@
       <link>https://stonebirdjx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 19 Nov 2022 11:14:12 +0800</lastBuildDate><atom:link href="https://stonebirdjx.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Dec 2022 11:07:17 +0800</lastBuildDate><atom:link href="https://stonebirdjx.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mysql</title>
+      <link>https://stonebirdjx.github.io/tags/mysql/</link>
+      <pubDate>Thu, 01 Dec 2022 11:07:17 +0800</pubDate>
+      
+      <guid>https://stonebirdjx.github.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>权限管理</title>
+      <link>https://stonebirdjx.github.io/tags/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Thu, 01 Dec 2022 11:07:17 +0800</pubDate>
+      
+      <guid>https://stonebirdjx.github.io/tags/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>golang</title>
       <link>https://stonebirdjx.github.io/tags/golang/</link>
